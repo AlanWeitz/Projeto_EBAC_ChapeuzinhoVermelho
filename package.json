@@ -1,5 +1,5 @@
 {
-  "name": "clone_disneyplus",
+  "name": "chapeuzinho-vermelho",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ogiansouza/clone_disneyplus.git"
+    "url": "git+https://github.com/AlanWeitz/Projeto_EBAC_ChapeuzinhoVermelho.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ogiansouza/clone_disneyplus/issues"
+    "url": "https://github.com/AlanWeitz/Projeto_EBAC_ChapeuzinhoVermelho/issues"
   },
-  "homepage": "https://github.com/ogiansouza/clone_disneyplus#readme",
+  "homepage": "https://github.com/AlanWeitz/Projeto_EBAC_ChapeuzinhoVermelho#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-imagemin": "^7.1.0",
