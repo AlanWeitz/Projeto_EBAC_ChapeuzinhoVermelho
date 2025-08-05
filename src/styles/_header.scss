@@ -30,15 +30,26 @@
     }
 
     &__logo {
-        max-width: 80px;
-        width: 100%;
-        margin: 5px;
-        transition: opacity .5s ease;
+    max-width: 80px;
+    width: 100%;
+    margin: 5px;
+    transition: opacity .5s ease;
 
-        @media (max-width: 768px) {
-            max-width: 64px;
-        }
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
     }
+
+    @media (max-width: 768px) {
+        max-width: 64px;
+    }
+
+    @media (max-width: 480px) {
+        max-width: 48px;
+        margin: 4px;
+    }
+}
 
     &__links {
         display: flex;

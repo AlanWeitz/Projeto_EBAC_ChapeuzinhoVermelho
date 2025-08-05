@@ -1,18 +1,19 @@
-@use 'variaveis';
-
 .hero {
     padding: 5.6vw;
     min-height: 80vh;
     background-image: url(../images/Titulofilme.png);
-    text-align: center;
     background-size: cover;
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
 
     @media (max-width: 768px) {
-        background-image: url(../images/Titulofilme.png);
-        padding-top: calc(50vw + 25px);
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin-top: -55px;
+        padding: 40vw 0 20vw; // só padding vertical
+        background-size: cover; // mantém o preenchimento total
+        background-position: center;
+        margin-top: 0; // remove margem negativa
     }
 
     .button {
@@ -22,6 +23,7 @@
 
     &__content {
         max-width: 640px;
+        margin: 0 auto;
 
         &__branding {
             max-width: 320px;
